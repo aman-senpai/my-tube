@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@material-tailwind/react": "^2.1.2",
+    "encoding": "^0.1.13",
     "firebase": "^10.4.0",
     "next": "latest",
     "react": "latest",
