@@ -11,10 +11,13 @@
   "dependencies": {
     "@material-tailwind/react": "^2.1.2",
     "encoding": "^0.1.13",
-    "firebase": "^10.4.0",
+    "firebase": "^11.10.0",
     "next": "latest",
     "react": "latest",
     "react-dom": "latest"
+  },
+  "overrides": {
+    "@grpc/grpc-js": "1.13.6"
   },
   "devDependencies": {
     "@types/node": "latest",
