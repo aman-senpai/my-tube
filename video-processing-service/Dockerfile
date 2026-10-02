@@ -1,5 +1,5 @@
 # Stage 1: Build stage
-FROM node:18 AS builder
+FROM node:22 AS builder
 
 # Set the working directory in the container to /app
 WORKDIR /app
@@ -17,7 +17,7 @@ COPY . .
 RUN npm run build
 
 # Stage 2: Production stage
-FROM node:18
+FROM node:22
 
 # install ffmpeg in the container
 RUN apt-get update && apt-get install -y ffmpeg
