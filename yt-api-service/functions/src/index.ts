@@ -1,4 +1,4 @@
-import * as functions from "firebase-functions";
+import * as functions from "firebase-functions/v1";
 import {initializeApp} from "firebase-admin/app";
 import {Firestore} from "firebase-admin/firestore";
 import * as logger from "firebase-functions/logger";
